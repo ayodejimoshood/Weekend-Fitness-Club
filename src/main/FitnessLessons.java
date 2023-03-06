@@ -41,5 +41,13 @@ class FitnessLesson {
         return day;
     }
 
+    public void printCustomers() {
+        // Print the customer's bookings
+        for(Booking booking : bookings){
+            System.out.println(booking.getCustomer());
+        }
+    }
+
+
     // other methods and getters/setters
 }

@@ -61,6 +61,11 @@ public class Main {
         Booking booking16 = new Booking(customer8, yoga2);
         customer2.makeBooking(booking16);
 
+        // Cancel a booking
+        customer1.cancelBooking(booking2);
+
+        //
+        spin1.printCustomers();
 
         // Add lessons to a list
 //        List<Lesson> lessons = new ArrayList<>();
