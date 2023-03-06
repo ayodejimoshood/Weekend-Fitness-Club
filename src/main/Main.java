@@ -16,12 +16,16 @@ public class Main {
         FitnessLesson spin2 = new FitnessLesson("Spin", 7.99, "Sunday");
         FitnessLesson yoga1 = new FitnessLesson("Yoga", 8.50, "Saturday");
         FitnessLesson yoga2 = new FitnessLesson("Yoga", 8.50, "Sunday");
-//        FitnessLesson bodySculpt1 = new FitnessLesson("BodySculpt", 15.25, 5);
-//        FitnessLesson bodySculpt2 = new FitnessLesson("BodySculpt", 15.25, 5);
-//        FitnessLesson zumba1 =  new FitnessLesson("Zumba", 27.00, 5 )
-//        FitnessLesson zumba2 =  new FitnessLesson("Zumba", 27.00, 5 )
-//        FitnessLesson boxFit1 = new FitnessLesson("Box Fit", 4.99, 5);
-//        FitnessLesson boxFit2 = new FitnessLesson("Box Fit", 4.99, 5);
+
+        // Create some sample customers
+        Customer customer1 = new Customer("Ayodeji Moshood", "ofreeman@gmail.com");
+        Customer customer2 = new Customer("Tahira Moshood", "tahira@gmail.com");
+        Customer customer3 = new Customer("Omotara Landt", "omotara@gmail.com");
+        Customer customer4 = new Customer("Oreoluwa Freeman", "omotara@gmail.com");
+        Customer customer5 = new Customer("Emilia Egba", "emilia@gmail.com");
+        Customer customer6 = new Customer("Shayomi Dokun", "shayomi@gmail.com");
+        Customer customer7 = new Customer("Emeruwa Dennis", "omotara@gmail.com");
+        Customer customer8 = new Customer("Bisola Kawthar", "omotara@gmail.com");
 
 
         // Add lessons to a list
