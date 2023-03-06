@@ -27,18 +27,39 @@ public class Main {
         Customer customer7 = new Customer("Emeruwa Dennis", "emeruwa@gmail.com");
         Customer customer8 = new Customer("Bisola Kawthar", "bisola@gmail.com");
 
-        // Make some bookings
+        // Create some bookings
         Booking booking1 = new Booking(customer1, spin1);
         customer1.makeBooking(booking1);
-
         Booking booking2 = new Booking(customer1, yoga1);
         customer1.makeBooking(booking2);
-
         Booking booking3 = new Booking(customer2, spin2);
         customer2.makeBooking(booking3);
-
         Booking booking4 = new Booking(customer2, yoga2);
         customer2.makeBooking(booking4);
+        Booking booking5 = new Booking(customer3, spin1);
+        customer2.makeBooking(booking5);
+        Booking booking6 = new Booking(customer3, yoga1);
+        customer2.makeBooking(booking6);
+        Booking booking7 = new Booking(customer4, spin2);
+        customer2.makeBooking(booking7);
+        Booking booking8 = new Booking(customer4, yoga2);
+        customer2.makeBooking(booking8);
+        Booking booking9 = new Booking(customer5, spin1);
+        customer2.makeBooking(booking9);
+        Booking booking10 = new Booking(customer5, yoga1);
+        customer2.makeBooking(booking10);
+        Booking booking11 = new Booking(customer6, spin2);
+        customer2.makeBooking(booking11);
+        Booking booking12 = new Booking(customer6, yoga2);
+        customer2.makeBooking(booking12);
+        Booking booking13 = new Booking(customer7, spin1);
+        customer2.makeBooking(booking13);
+        Booking booking14 = new Booking(customer7, yoga1);
+        customer2.makeBooking(booking14);
+        Booking booking15 = new Booking(customer8, spin2);
+        customer2.makeBooking(booking15);
+        Booking booking16 = new Booking(customer8, yoga2);
+        customer2.makeBooking(booking16);
 
 
         // Add lessons to a list
