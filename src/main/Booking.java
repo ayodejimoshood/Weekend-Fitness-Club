@@ -5,12 +5,12 @@ import java.time.LocalDateTime;
 public class Booking {
     private final Customer customer;
     private final FitnessLesson fitnessLesson;
-    private final LocalDateTime dateTime;
+//    private final LocalDateTime dateTime;
 
-    public Booking(Customer customer, FitnessLesson fitnessLesson, LocalDateTime dateTime) {
+    public Booking(Customer customer, FitnessLesson fitnessLesson) {
         this.customer = customer;
         this.fitnessLesson = fitnessLesson;
-        this.dateTime = dateTime;
+//        this.dateTime = dateTime;
     }
 
     public Customer getCustomer() {
