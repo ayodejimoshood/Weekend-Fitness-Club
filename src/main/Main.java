@@ -1,5 +1,7 @@
 package main;
 
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -57,42 +59,26 @@ public class Main {
         // Cancel a booking
         customer1.cancelBooking(booking2);
 
-        //
-        spin1.printCustomers();
 
         // Add lessons to a list
-//        List<Lesson> lessons = new ArrayList<>();
-//        lessons.add(spin1);
-//        lessons.add(spin2);
-//        lessons.add(yoga1);
-//        lessons.add(yoga2);
-//        lessons.add(boxFit1);
-//        lessons.add(boxFit2);
-//        lessons.add(bodysculpt1);
-//        lessons.add(bodysculpt2);
+//        List<FitnessLesson> fitnessLesson = new ArrayList<>();
+//        fitnessLesson.add(spin1);
+//        fitnessLesson.add(spin2);
+//        fitnessLesson.add(yoga1);
+//        fitnessLesson.add(yoga2);
+//        fitnessLesson.add(boxFit1);
+//        fitnessLesson.add(boxFit2);
+//        fitnessLesson.add(bodysculpt1);
+//        fitnessLesson.add(bodysculpt2);
 //
-//        // Create some sample customers
-//        Customer customer1 = new Customer("John Smith", "john.smith@example.com");
-//        Customer customer2 = new Customer("Jane Doe", "jane.doe@example.com");
 //
-//        // Make some bookings
-//        Booking booking1 = new Booking(customer1, spin1);
-//        customer1.makeBooking(booking1);
-//        Booking booking2 = new Booking(customer1, yoga1);
-//        customer1.makeBooking(booking2);
-//        Booking booking3 = new Booking(customer2, spin2);
-//        customer2.makeBooking(booking3);
-//        Booking booking4 = new Booking(customer2, yoga2);
-//        customer2.makeBooking(booking4);
-//
-//        // Cancel a booking
-//        customer1.cancelBooking(booking2);
+
 //
 //        // Print the customer's bookings
-//        System.out.println(customer1.getName() + "'s bookings:");
-//        for (Booking booking : customer1.getBookings()) {
-//            System.out.println(booking.getLesson().getType() + " on " + booking.getLesson().getDay() + " at " + booking.getLesson().getTime());
-//        }
+        System.out.println(customer1.getName() + "'s bookings:");
+        for (Booking booking : customer1.getBookings()) {
+            System.out.println(booking.getFitnessLesson().getType() + " on " + booking.getFitnessLesson().getDay());
+        }
 
         // Generate a report of customer numbers and average ratings per lesson
 //        ReportGenerator reportGenerator = new ReportGenerator(lessons);

@@ -50,5 +50,9 @@ public class Customer {
         return bookings;
     }
 
+    public boolean getCustomer() {
+        return false;
+    }
+
     // other methods and getters/setters
 }

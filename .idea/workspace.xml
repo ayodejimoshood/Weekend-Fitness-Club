@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="636293a5-b8ee-4f6f-bfb8-bc51ee0df2ea" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/FitnessLessons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/FitnessLessons.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
@@ -45,7 +47,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="WeekendFitnessClub" />
       <extension name="coverage">
@@ -71,11 +73,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -98,5 +95,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Weekend_Fitness_ClubXXX$Main.ic" NAME="Main Coverage Results" MODIFIED="1678070867867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>main.*</FILTER>
+    </SUITE>
   </component>
 </project>
