@@ -4,21 +4,21 @@ import java.util.ArrayList;
 
 class FitnessLesson {
     private String type;
-    private final BigDecimal price;
-    private int maxCapacity;
+    private final double price;
+    private final String day;
     private ArrayList<Booking> bookings;
     private ArrayList<Review> reviews;
 
-    public FitnessLesson(String type, BigDecimal price, int maxCapacity) {
+    public FitnessLesson(String type, double price, String day) {
         this.type = type;
         this.price = price;
-        this.maxCapacity = maxCapacity;
-        this.bookings = new ArrayList<>();
+        this.day = day;
+        this.bookings = new ArrayList<>(5);
         this.reviews = new ArrayList<Review>();
     }
 
     public boolean hasAvailability() {
-        return bookings.size() < maxCapacity;
+        return bookings.size() < 5;
     }
 
     public void addBooking(Booking bookings) {
@@ -33,8 +33,12 @@ class FitnessLesson {
         reviews.add(reviews);
     }
 
-    public BigDecimal getPrice() {
+    public double getPrice() {
         return price;
+    }
+
+    public String getDay() {
+        return day;
     }
 
     // other methods and getters/setters
