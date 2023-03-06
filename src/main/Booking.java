@@ -17,6 +17,10 @@ public class Booking {
         return customer;
     }
 
+    public Customer getCustomerName() {
+        return customer;
+    }
+
     public FitnessLesson getFitnessLesson() {
         return fitnessLesson;
     }

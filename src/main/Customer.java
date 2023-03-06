@@ -11,6 +11,14 @@ public class Customer {
         this.email = email;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
     /**
      * Adds a new booking for the customer.
      * @param booking The booking to be added.

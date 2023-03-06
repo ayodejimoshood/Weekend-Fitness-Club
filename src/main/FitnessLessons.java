@@ -44,7 +44,7 @@ class FitnessLesson {
     public void printCustomers() {
         // Print the customer's bookings
         for(Booking booking : bookings){
-            System.out.println(booking.getCustomer());
+            System.out.println(booking.getCustomer().getBookings());
         }
     }
 
