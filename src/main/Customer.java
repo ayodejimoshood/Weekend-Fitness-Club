@@ -11,6 +11,10 @@ public class Customer {
         this.email = email;
     }
 
+    /**
+     * Adds a new booking for the customer.
+     * @param booking The booking to be added.
+     */
     public void makeBooking(Booking booking) {
         if (booking.getFitnessLesson().hasAvailability()) {
             bookings.add(booking);
@@ -20,11 +24,19 @@ public class Customer {
         }
     }
 
+    /**
+     * Removes a booking for the customer.
+     * @param booking The booking to be removed.
+     */
     public void cancelBooking(Booking booking) {
         bookings.remove(booking);
         booking.getFitnessLesson().removeBooking(booking);
     }
 
+    /**
+     * Gets a list of all the bookings for the customer.
+     * @return A list of all the bookings for the customer.
+     */
     public ArrayList<Booking> getBookings() {
 
         return bookings;
