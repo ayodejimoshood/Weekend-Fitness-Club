@@ -24,8 +24,8 @@ public class Main {
         Customer customer4 = new Customer("Oreoluwa Freeman", "omotara@gmail.com");
         Customer customer5 = new Customer("Emilia Egba", "emilia@gmail.com");
         Customer customer6 = new Customer("Shayomi Dokun", "shayomi@gmail.com");
-        Customer customer7 = new Customer("Emeruwa Dennis", "omotara@gmail.com");
-        Customer customer8 = new Customer("Bisola Kawthar", "omotara@gmail.com");
+        Customer customer7 = new Customer("Emeruwa Dennis", "emeruwa@gmail.com");
+        Customer customer8 = new Customer("Bisola Kawthar", "bisola@gmail.com");
 
 
         // Add lessons to a list
