@@ -18,14 +18,27 @@ public class Main {
         FitnessLesson yoga2 = new FitnessLesson("Yoga", 8.50, "Sunday");
 
         // Create some sample customers
-        Customer customer1 = new Customer("Ayodeji Moshood", "ofreeman@gmail.com");
+        Customer customer1 = new Customer("Ayodeji Moshood", "amoshood@fczmedia.com");
         Customer customer2 = new Customer("Tahira Moshood", "tahira@gmail.com");
         Customer customer3 = new Customer("Omotara Landt", "omotara@gmail.com");
-        Customer customer4 = new Customer("Oreoluwa Freeman", "omotara@gmail.com");
+        Customer customer4 = new Customer("Oreoluwa Freeman", "oreoluwa@gmail.com");
         Customer customer5 = new Customer("Emilia Egba", "emilia@gmail.com");
         Customer customer6 = new Customer("Shayomi Dokun", "shayomi@gmail.com");
         Customer customer7 = new Customer("Emeruwa Dennis", "emeruwa@gmail.com");
         Customer customer8 = new Customer("Bisola Kawthar", "bisola@gmail.com");
+
+        // Make some bookings
+        Booking booking1 = new Booking(customer1, spin1);
+        customer1.makeBooking(booking1);
+
+        Booking booking2 = new Booking(customer1, yoga1);
+        customer1.makeBooking(booking2);
+
+        Booking booking3 = new Booking(customer2, spin2);
+        customer2.makeBooking(booking3);
+
+        Booking booking4 = new Booking(customer2, yoga2);
+        customer2.makeBooking(booking4);
 
 
         // Add lessons to a list
